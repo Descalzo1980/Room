@@ -4,10 +4,10 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "name_table")
-data class Name(
+data class User(
     @PrimaryKey(autoGenerate = true)
     var id: Int,
-    val firstName: String,
+    var firstName: String,
     val lastName: String,
     val age: Int
 )
